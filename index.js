@@ -3,8 +3,8 @@ module.exports = {
         'eslint:recommended',
         'plugin:@typescript-eslint/recommended',
     ],
-    parser: '@typescript-eslint/parser',
     parserOptions: {
+        parser: '@typescript-eslint/parser',
         ecmaVersion: 12,
         sourceType: 'module',
     },
@@ -48,4 +48,16 @@ module.exports = {
             'always',
         ],
     },
+    overrides: [
+        {
+            files: [
+                '.eslintrc.js',
+                'jest.config.js',
+            ],
+            env: { node: true },
+            rules: {
+                '@typescript-eslint/no-var-requires': 'off',
+            },
+        },
+    ],
 };
