@@ -1,0 +1,29 @@
+{
+  "name": "@noeldemartin/eslint-config-typescript",
+  "version": "0.0.0",
+  "description": "My TypeScript ESLint rules",
+  "main": "index.js",
+  "scripts": {
+    "publish-dev": "scripts/publish-dev.sh"
+  },
+  "engines": {
+    "node": ">=12.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noeldemartin/eslint-config-typescript.git"
+  },
+  "author": "Noel De Martin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noeldemartin/eslint-config-typescript/issues"
+  },
+  "homepage": "https://github.com/noeldemartin/eslint-config-typescript",
+  "peerDependencies": {
+    "eslint": ">= 5"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.9.1",
+    "@typescript-eslint/parser": "^4.9.1"
+  }
+}
