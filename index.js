@@ -12,41 +12,19 @@ module.exports = {
         '@typescript-eslint',
     ],
     rules: {
-        '@typescript-eslint/no-explicit-any': [
-            'warn',
-            {
-                ignoreRestArgs: true,
-            },
-        ],
+        '@typescript-eslint/no-explicit-any': [ 'warn', { ignoreRestArgs: true } ],
         '@typescript-eslint/no-inferrable-types': 'off',
-        'comma-dangle': [
-            'error',
-            'always-multiline',
-        ],
-        'indent': [
-            'error',
-            4,
-        ],
-        'linebreak-style': [
-            'error',
-            'unix',
-        ],
-        'max-len': [
-            'error',
-            120,
-        ],
-        'quotes': [
-            'error',
-            'single',
-        ],
-        'quote-props': [
-            'error',
-            'consistent-as-needed',
-        ],
-        'semi': [
-            'error',
-            'always',
-        ],
+        'comma-dangle': [ 'error', 'always-multiline' ],
+        'function-call-argument-newline': ['error', 'consistent'],
+        'function-paren-newline': ['error', 'multiline-arguments'],
+        'indent': [ 'error', 4 ],
+        'linebreak-style': [ 'error', 'unix' ],
+        'max-len': [ 'error', 120 ],
+        'no-multi-spaces': 'error',
+        'object-curly-spacing': ['error', 'always'],
+        'quotes': [ 'error', 'single'],
+        'quote-props': [ 'error', 'consistent-as-needed' ],
+        'semi': [ 'error', 'always' ],
     },
     overrides: [
         {
