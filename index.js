@@ -20,7 +20,7 @@ module.exports = {
         'indent': [ 'error', 4 ],
         'linebreak-style': [ 'error', 'unix' ],
         'max-len': [ 'error', 120 ],
-        'no-multi-spaces': 'error',
+        'no-multi-spaces': ['error', { exceptions: { Property: false } }],
         'object-curly-spacing': ['error', 'always'],
         'quotes': [ 'error', 'single'],
         'quote-props': [ 'error', 'consistent-as-needed' ],
