@@ -41,13 +41,16 @@ module.exports = {
     },
     overrides: [
         {
-            files: [
-                '.eslintrc.js',
-                'jest.config.js',
-            ],
+            files: ['.eslintrc.js', 'jest.config.js'],
             env: { node: true },
             rules: {
                 '@typescript-eslint/no-var-requires': 'off',
+            },
+        },
+        {
+            files: ['*.test.ts', '*.spec.ts'],
+            rules: {
+                'padded-blocks': ['error', { classes: 'always', switches: 'never' }],
             },
         },
     ],
