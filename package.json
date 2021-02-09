@@ -4,7 +4,7 @@
   "description": "My TypeScript ESLint rules",
   "main": "index.js",
   "scripts": {
-    "publish-dev": "scripts/publish-dev.sh"
+    "publish-next": "scripts/publish-next.sh"
   },
   "engines": {
     "node": ">=12.x"
