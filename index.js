@@ -41,7 +41,12 @@ module.exports = {
     },
     overrides: [
         {
-            files: ['.eslintrc.js', 'jest.config.js'],
+            files: [
+                '.eslintrc.js',
+                'jest.config.js',
+                'rollup.config.js',
+                'vite.config.js',
+            ],
             env: { node: true },
             rules: {
                 '@typescript-eslint/no-var-requires': 'off',
