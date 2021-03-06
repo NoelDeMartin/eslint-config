@@ -27,6 +27,6 @@
     "@typescript-eslint/parser": "^4.9.1"
   },
   "devDependencies": {
-    "@noeldemartin/scripts": "0.0.0-next.20a9e3c0471a47cd791b34907c619c82fc412e74"
+    "@noeldemartin/scripts": "0.0.0-next.4f658bba0efba712f8fe271b03df331036ee0d34"
   }
 }
