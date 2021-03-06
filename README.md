@@ -1,12 +1,12 @@
-# ESLint TypeScript config
+# ESLint config
 
-These are the TypeScript ESLint rules I use in different projects. If you want to use them as well, you're most welcome. You can install the package with:
+These are the ESLint rules I use in different projects. If you also want to use them, you're most welcome. You can install the packages like this:
 
 ```sh
 npm install eslint @noeldemartin/eslint-config-typescript --save-dev
 ```
 
-And use it in your eslint config file:
+And use them in your eslint config file:
 
 ```js
 // .eslintrc.js

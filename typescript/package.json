@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/noeldemartin/eslint-config-typescript.git"
+    "url": "git+https://github.com/noeldemartin/eslint-config.git"
   },
   "author": "Noel De Martin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/noeldemartin/eslint-config-typescript/issues"
+    "url": "https://github.com/noeldemartin/eslint-config/issues"
   },
-  "homepage": "https://github.com/noeldemartin/eslint-config-typescript",
+  "homepage": "https://github.com/noeldemartin/eslint-config",
   "peerDependencies": {
     "eslint": ">= 5"
   },
