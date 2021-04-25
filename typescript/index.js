@@ -12,7 +12,9 @@ module.exports = {
         '@typescript-eslint',
     ],
     rules: {
+        '@typescript-eslint/ban-types': 'off',
         '@typescript-eslint/consistent-type-imports': 'error',
+        '@typescript-eslint/explicit-member-accessibility': ['error', { overrides: { constructors: 'off' } }],
         '@typescript-eslint/explicit-module-boundary-types': 'error',
         '@typescript-eslint/func-call-spacing': ['error', 'never'],
         '@typescript-eslint/member-delimiter-style': 'error',
@@ -29,6 +31,7 @@ module.exports = {
         'function-call-argument-newline': ['error', 'consistent'],
         'function-paren-newline': ['error', 'multiline-arguments'],
         'indent': ['error', 4, { SwitchCase: 1 }],
+        'key-spacing': 'error',
         'linebreak-style': ['error', 'unix'],
         'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
         'max-len': ['error', 120],
