@@ -13,6 +13,11 @@ module.exports = {
                 }],
                 'max-len': 'off',
             },
+            globals: {
+                defineEmits: 'readonly',
+                defineProps: 'readonly',
+                defineExpose: 'readonly',
+            },
         },
     ],
 };
