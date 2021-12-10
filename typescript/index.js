@@ -35,6 +35,7 @@ module.exports = {
         'linebreak-style': ['error', 'unix'],
         'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
         'max-len': ['error', 120],
+        'no-console': 'error',
         'no-multi-spaces': ['error', { exceptions: { Property: false } }],
         'no-unused-vars': 'off',
         'object-curly-newline': ['error', { ImportDeclaration: { multiline: true } }],
