@@ -23,7 +23,7 @@
     "eslint": ">= 5"
   },
   "dependencies": {
-    "@noeldemartin/eslint-config-typescript": "0.1.0-next.751590b67dd8a228c8bbc418e99487c0a410d9b2"
+    "@noeldemartin/eslint-config-typescript": "0.1.0-next.e83e5d37837b9845675534ab9d3745820b1326b4"
   },
   "devDependencies": {
     "@noeldemartin/scripts": "^0.1.0"
