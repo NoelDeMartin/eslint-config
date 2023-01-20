@@ -27,6 +27,6 @@
     "@typescript-eslint/parser": "^5.6.0"
   },
   "devDependencies": {
-    "@noeldemartin/scripts": "^0.1.0"
+    "@noeldemartin/scripts": "^0.1.2"
   }
 }
