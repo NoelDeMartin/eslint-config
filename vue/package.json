@@ -1,6 +1,6 @@
 {
   "name": "@noeldemartin/eslint-config-vue",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "My Vue ESLint rules",
   "main": "index.js",
   "scripts": {
@@ -23,9 +23,9 @@
     "eslint": ">= 5"
   },
   "dependencies": {
-    "@noeldemartin/eslint-config-typescript": "0.1.0-next.e83e5d37837b9845675534ab9d3745820b1326b4"
+    "@noeldemartin/eslint-config-typescript": "^0.1.1"
   },
   "devDependencies": {
-    "@noeldemartin/scripts": "^0.1.0"
+    "@noeldemartin/scripts": "^0.1.2"
   }
 }
