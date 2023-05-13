@@ -60,7 +60,7 @@ module.exports = {
             },
         },
         {
-            files: ['*.test.ts', '*.spec.ts'],
+            files: ['*.test.ts', '*.spec.ts', '*.cy.ts'],
             rules: {
                 'padded-blocks': ['error', { classes: 'always', switches: 'never' }],
             },
