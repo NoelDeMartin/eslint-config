@@ -2,6 +2,7 @@ module.exports = {
     extends: [
         'eslint:recommended',
         'plugin:@typescript-eslint/recommended',
+        'plugin:@noeldemartin/recommended',
     ],
     parserOptions: {
         parser: '@typescript-eslint/parser',
@@ -10,6 +11,7 @@ module.exports = {
     },
     plugins: [
         '@typescript-eslint',
+        '@noeldemartin',
     ],
     rules: {
         '@typescript-eslint/ban-types': 'off',
