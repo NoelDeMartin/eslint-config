@@ -10,8 +10,10 @@ jobs:
             - uses: actions/setup-node@v3
               with:
                   node-version-file: '.nvmrc'
-            - run: cd noeldemartin
-            - run: npm ci
-            - run: npm run build
-            - run: npm run lint
-            - run: npm test
+            - name: CI
+              run: |
+                cd noeldemartin
+                npm ci
+                npm run build
+                npm run lint
+                npm test
