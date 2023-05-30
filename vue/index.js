@@ -11,6 +11,7 @@ module.exports = {
                     code: 120,
                     ignoreHTMLAttributeValues: true,
                 }],
+                'vue/multi-word-component-names': 'off',
                 'vue/no-setup-props-destructure': 'off',
                 'max-len': 'off',
             },
