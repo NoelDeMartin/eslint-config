@@ -23,7 +23,7 @@
     "eslint": ">= 5"
   },
   "dependencies": {
-    "@noeldemartin/eslint-plugin": "^0.0.0",
+    "@noeldemartin/eslint-plugin": "*",
     "@typescript-eslint/eslint-plugin": "^5.6.0",
     "@typescript-eslint/parser": "^5.6.0"
   },
