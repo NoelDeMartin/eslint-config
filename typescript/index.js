@@ -25,6 +25,7 @@ module.exports = {
         '@typescript-eslint/no-explicit-any': ['warn', { ignoreRestArgs: true }],
         '@typescript-eslint/no-inferrable-types': 'off',
         '@typescript-eslint/no-namespace': 'off',
+        '@typescript-eslint/no-shadow': 'error',
         '@typescript-eslint/no-this-alias': 'off',
         '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_+$' }],
         '@typescript-eslint/semi': ['error', 'always'],
