@@ -23,7 +23,8 @@
     "eslint": ">= 5"
   },
   "dependencies": {
-    "@noeldemartin/eslint-config-typescript": "*"
+    "@noeldemartin/eslint-config-typescript": "*",
+    "eslint-plugin-vue": "^9.17.0"
   },
   "devDependencies": {
     "@noeldemartin/scripts": "^0.1.2"
