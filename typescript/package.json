@@ -1,6 +1,6 @@
 {
   "name": "@noeldemartin/eslint-config-typescript",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "My TypeScript ESLint rules",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
     "eslint": ">= 5"
   },
   "dependencies": {
-    "@noeldemartin/eslint-plugin": "next",
+    "@noeldemartin/eslint-plugin": "^0.1.0",
     "@typescript-eslint/eslint-plugin": "^5.6.0",
     "@typescript-eslint/parser": "^5.6.0"
   },
